@@ -1,0 +1,110 @@
+/* * {
+    border: 1px solid red;
+} */
+
+html {
+    background-color: rgb(31, 31, 31);
+}
+
+
+/* #computer img {
+    position: fixed;
+    max-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    /* inside screen diminsions 960x725 
+}
+
+/* #screen {
+    max-width: 960px;
+    max-height: 725px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+    border: 1px solid red;
+    border-radius: 20px;
+    z-index: 1; */
+
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      
+      .container {
+        position: relative;
+      }
+      
+      .container img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-55%, -62%);
+        width: 48vw;
+        height: 35.8vw;
+        max-width: 960px;
+        max-height: 725px;
+        overflow: hidden;
+        background-color: black;
+        border-radius: 1vw;
+        padding: .75vw;
+      }
+      
+      .scroll-box {
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+      }
+      
+
+      .scroll-box p {
+        color: #39ff14;
+      }
+
+      nav ul li {
+        color: #39ff14;
+        list-style: none;
+      }
+
+      nav {
+        max-width: 45vw;
+        border-bottom: 1px solid #39ff14;
+      }
+
+      nav ul {
+        /* display: flex;
+        justify-content: space-around; */
+        /* display: inline-block;
+        height: 100%;
+        margin: auto;
+         */
+         list-style-type: none;
+        display: flex;
+         max-width: 90%;
+         justify-content: center;
+         margin-left: auto;
+         margin-right: auto;
+      }
+        
+      nav ul li {
+        display: list-item;
+        height: 100%;
+        padding: 1vw .5vw;
+        
+         
+      }
+      
+
+      :visited {
+        color: #2dc712;
+      }
